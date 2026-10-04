@@ -171,6 +171,7 @@ ai-business-intelligence/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## Running the Project
 
