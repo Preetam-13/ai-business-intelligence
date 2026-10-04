@@ -1,0 +1,36 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables / API keys
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated analytics outputs
+data/processed/
+
+# Power BI temporary files
+powerbi/~$*
+powerbi/*.tmp
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets
+*.key
+*.pem
+"@ | Set-Content -Encoding UTF8 .gitignore
+
+# Generated raw datasets
+data/raw/
