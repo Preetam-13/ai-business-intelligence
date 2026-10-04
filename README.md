@@ -17,6 +17,20 @@ The platform transforms raw transactional data into:
 - AI-generated executive insights
 - Interactive Power BI dashboards
 
+## Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](screenshots/executive_overview.png)
+
+### AI Executive Insights
+
+![AI Executive Insights](screenshots/ai_insights.png)
+
+### Power BI Dashboard
+
+![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+
 ## Architecture
 
 Raw CSV Data
@@ -158,9 +172,9 @@ ai-business-intelligence/
 ├── .gitignore
 └── README.md
 
-**## Running the Project**
+## Running the Project
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone <your-github-repository-url>
