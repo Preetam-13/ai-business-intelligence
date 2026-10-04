@@ -177,41 +177,60 @@ ai-business-intelligence/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/Preetam-13/ai-business-intelligence.git
 cd ai-business-intelligence
+```
 
-2. Create and activate the virtual environment
+### 2. Create and activate the virtual environment
 
+```powershell
 python -m venv venv
 venv\Scripts\activate
+```
 
-3. Install dependencies
+### 3. Install dependencies
 
+```powershell
 pip install -r requirements.txt
+```
 
-4. Start PostgreSQL
+### 4. Start PostgreSQL
 
 Make sure PostgreSQL is running before loading the data.
 
-5. Load the data
+### 5. Load the data
 
+```powershell
 python src\load_data.py
+```
 
-6. Generate analytics
+### 6. Generate analytics
 
+```powershell
 python src\generate_insights.py
 python src\analyze_drivers.py
+```
 
-7. Configure the AI API key
+### 7. Configure the AI API key
 
+Set your OpenRouter API key:
+
+```powershell
 $env:OPENROUTER_API_KEY="YOUR_API_KEY"
+```
 
-Then:
+Then generate the AI executive summary:
 
+```powershell
 python src\generate_ai_summary.py
+```
 
-8. Launch the application
+### 8. Launch the application
 
+```powershell
 streamlit run app\dashboard.py
+```
 
 The Streamlit application will open in your browser.
+
+> **Note:** Never commit API keys, database credentials, `.env` files, or other sensitive information to GitHub.
